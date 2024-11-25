@@ -48,3 +48,16 @@ nvm use 14.16.1
 ```
 
 node -v できちんと表示されればOK
+
+---
+
+dockerのインストール
+
+```
+sudo yum install -y docker
+sudo service docker start
+sudo usermod -a -G docker ec2-user
+
+# dockerの起動確認
+sudo docker info
+```
